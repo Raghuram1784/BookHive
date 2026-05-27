@@ -60,7 +60,7 @@ A state-of-the-art, high-fidelity **Online Book Store** application designed wit
 
 ### ⚙️ Database Configuration Setup
 
-By default, the application is pre-configured to run with a local **MySQL** database. All configuration properties are managed in [src/main/resources/application.properties](file:///c:/Users/Raghu%20Ram/Desktop/Online-Book-Store-main/src/main/resources/application.properties).
+By default, the application is pre-configured to run with a local **MySQL** database. All configuration properties are managed in [src/main/resources/application.properties].
 
 #### Option A: Running with MySQL (Default)
 1. Ensure your local MySQL server is running.
@@ -72,7 +72,7 @@ By default, the application is pre-configured to run with a local **MySQL** data
 
 #### Option B: Running with H2 In-Memory DB (Zero-Setup)
 If you do not have MySQL installed, you can switch to a lightweight In-Memory database:
-1. Open [application.properties](file:///c:/Users/Raghu%20Ram/Desktop/Online-Book-Store-main/src/main/resources/application.properties).
+1. Open [application.properties].
 2. Comment out the **MySQL Configuration** section (lines 5–9).
 3. Uncomment the **H2 Memory DB Configs** section (lines 20–25).
 4. Run the project!
