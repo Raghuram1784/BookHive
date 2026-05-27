@@ -1,0 +1,22 @@
+# Gradle cache and build outputs
+.gradle/
+build/
+bin/
+out/
+
+# IDE configs
+.idea/
+*.iml
+*.iws
+*.ipr
+.settings/
+.classpath
+.project
+.factorypath
+
+# Environment secrets
+.env
+
+# OS files
+Thumbs.db
+desktop.ini
