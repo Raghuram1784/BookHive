@@ -80,7 +80,7 @@ If you do not have MySQL installed, you can switch to a lightweight In-Memory da
 ---
 
 ### 🔑 Environment Variables
-This project supports standard environment overrides for sensitive credentials. You can create a file named `.env` in the project root folder based on the provided [.env.example](file:///c:/Users/Raghu%20Ram/Desktop/Online-Book-Store-main/.env.example):
+This project supports standard environment overrides for sensitive credentials. You can create a file named `.env` in the project root folder based on the provided [.env.example]:
 
 ```env
 # Server Port
@@ -143,7 +143,7 @@ Online-Book-Store-main/
 
 ## 🧪 Demo Login Credentials
 
-The application uses [DataLoader.java](file:///c:/Users/Raghu%20Ram/Desktop/Online-Book-Store-main/src/main/java/com/bittercode/config/DataLoader.java) to automatically seed default customer and admin/seller accounts upon startup for quick testing:
+The application uses [DataLoader.java] to automatically seed default customer and admin/seller accounts upon startup for quick testing:
 
 ### 👤 Customer Login Profile:
 * **Role:** Customer
